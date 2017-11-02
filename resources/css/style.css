@@ -212,6 +212,18 @@ header nav {
   color: #c49e57; 
 }
 
+#socialMedia {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#socialMedia a {
+  background-color: gray;
+  padding: 20%;
+}
+
 #HoO {
   color: #c49e57;
   font-family: 'Bitter', serif;
@@ -293,5 +305,18 @@ header nav {
   
   .mobileNav {
     display: flex;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  
+  /* MOBILE STYLING */
+  .subContent {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .subContent p {
+    margin: .5rem 0;
   }
 }
