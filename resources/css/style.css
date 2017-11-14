@@ -328,6 +328,15 @@ header nav {
     margin: .5rem;
     padding: 1rem;
   }
+  
+  #faqPage {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .faqColumn {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 525px) {
