@@ -342,6 +342,12 @@ header nav {
 @media only screen and (max-width: 525px) {
   
   /* MOBILE STYLING */
+  body {
+    background: url(../imgs/lawBGmini.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
   .sectionContainer h1 {
     text-align: center;
   }
